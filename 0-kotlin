@@ -1,0 +1,22 @@
+fun main() {
+    // Inteiros com sinal (tamanho explícito em bits)
+    val a: Byte = -12
+    val b: Short = 1000
+    val c:Int = 100_000
+    val d: Long = 9_000_000_000L
+
+    // Ponto flutuante
+    val e: Float = 3.14f
+    val f: Double = 2.71828
+
+    // Booleano
+    val g: Boolean = true
+
+    // Char (representa um único caractere UTF-16)
+    val h: Char = 'K'
+
+    println("Byte: $a, Short: $b, Int: $c, Long: $d")
+    println("Float: $e, Double: $f")
+    println("Boolean: $g")
+    println("Char: $h")
+}
